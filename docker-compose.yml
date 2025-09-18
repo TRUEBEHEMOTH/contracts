@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  watchtower:
+    build:
+      context: ./services/watchtower
+      dockerfile: Dockerfile
+    container_name: votta-watchtower
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    volumes:
+      - watchtower-data:/root/data
+    env_file:
+      - .env
+    environment:
+      - WATCHTOWER_LOG_LEVEL=info
+      - METRICS_ENABLED=true
+      - METRICS_HOST=0.0.0.0
+      - METRICS_PORT=3001
+    networks:
+      - votta-network
+
+  aggregator:
+    build:
+      context: ./services/aggregator
+      dockerfile: Dockerfile
+    container_name: votta-aggregator
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+      - "9090:9090"
+    volumes:
+      - aggregator-data:/app/data
+    env_file:
+      - .env
+    environment:
+      - AGGREGATOR_API_HOST=0.0.0.0
+      - AGGREGATOR_API_PORT=3000
+      - METRICS_ENABLED=true
+      - METRICS_HOST=0.0.0.0
+      - METRICS_PORT=9090
+    networks:
+      - votta-network
+
+networks:
+  votta-network:
+    driver: bridge
+
+volumes:
+  watchtower-data:
+  aggregator-data:

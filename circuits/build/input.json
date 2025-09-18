@@ -1,0 +1,6 @@
+{
+  "merkle_root": "123456789",
+  "counts_hash": "987654321",
+  "vote_data": "111222333",
+  "secret_key": "444555666"
+}
